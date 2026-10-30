@@ -227,12 +227,8 @@ jobs:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
-
           
           # Submodule xxxxx patches:
-          
-          curl https://github.com/johandegraeve/xdrip-client-swift-1.git | git apply --directory=xdrip-client-swift -v --whitespace=fix
-          
           # Add patches for customization of additional submodules by following the templates above, 
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
